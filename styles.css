@@ -1,0 +1,63 @@
+/* Change the table border and background color */
+table {
+    border: 2px solid #131010; /* Use a lighter border color */
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #cbc6c6; /* Use a light gray background color */
+}
+
+/* Change button styles */
+input[type="button"] {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+    padding: 3px;
+    margin: 1px;
+    background-color: #66a924; /* Use a lighter orange color */
+    color: #333; /* Use a darker text color */
+}
+
+/* Change button hover color */
+input[type="button"]:hover {
+    background-color: #ff9900; /* Change hover background color to a slightly darker orange */
+}
+
+/* Change input field styles */
+input[type="text"] {
+    padding: 20px 240px;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid #ddd; /* Use a lighter border color */
+    text-align: left;
+    background-color: #f9f9f9; /* Use a very light gray background color */
+}
+
+/* Change special buttons (C, =, DEL, ANS) background color */
+input[type="button"][value="C"],
+input[type="button"][value="="],
+input[type="button"][value="DEL"],
+input[type="button"][value="ANS"]{
+    background-color: #f80808; /* Use a lighter red color */
+}
+
+/* Change number buttons (0-9) background color */
+input[type="button"][value="0"],
+input[type="button"][value="1"],
+input[type="button"][value="2"],
+input[type="button"][value="3"],
+input[type="button"][value="4"],
+input[type="button"][value="5"],
+input[type="button"][value="6"],
+input[type="button"][value="7"],
+input[type="button"][value="8"],
+input[type="button"][value="9"] {
+    background-color: #6b9f12; /* Use a lighter shade of blue */
+    color: #333; /* Use a darker text color */
+}
